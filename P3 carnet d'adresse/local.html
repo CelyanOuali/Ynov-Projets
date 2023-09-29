@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet d'adresses</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Carnet d'adresses</h1>
+        </header>
+        <div id="contacts">
+            <section>
+                <h2>Ajouter un contact</h2>
+                <input type="text" id="nom" placeholder="Nom">
+                <input type="text" id="prenom" placeholder="Prénom">
+                <input type="text" id="telephone" placeholder="Téléphone">
+                <input type="text" id="adresse" placeholder="Adresse">
+                <button id="ajouter">Ajouter contact</button>
+            </section>
+            <section>
+                <h2>Liste des contacts</h2>
+                <ul id="listeContacts"></ul>
+            </section>
+            <section>
+                <h2>Sélectionner un contact à supprimer</h2>
+                <select id="selectContact"></select>
+                <button id="supprimer">Supprimer contact</button>
+            </section>
+        </div>
+    </div>
+    <script src="engine.js"></script>
+</body>
+</html>
